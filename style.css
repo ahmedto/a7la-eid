@@ -1,0 +1,362 @@
+﻿
+/**
+* vBulletin 3.8.7 CSS
+* Style: 'www.fb.com/flying1free'; Style ID: 2
+*/
+
+@import "https://ahmedto.github.io/a7la-eid/stylesheet.css";
+@import "https://ahmedto.github.io/a7la-eid/stylesheetregular.css";
+        *{
+           -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+body{
+position: relative;
+    z-index: -5;
+
+}
+body,
+        html {
+background-color: #2D84C1;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+            font-family: droidkufi, "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 13px;
+            min-width: 900px !important ;
+        }
+a{
+    text-decoration: none;
+      -webkit-transition: all .3s;
+        -o-transition: all .3s;
+        transition: all .3s;
+
+}
+        .pageWrpapper {
+
+            left: 0px;
+            top: 0px;
+            width: 100%;
+
+            min-width: 900px;
+        }
+vbmenu_popup{
+    margin-top: -125px !important    ;
+}
+div.x-slice-01 {
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            width: 950px;
+            height: 78px;
+        }
+        div.header-left {
+            position: absolute;
+            left: 0px;
+            width: 318px;
+            height: 315px;
+            background-image: url(https://i.servimg.com/u/f98/20/22/21/34/header12.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            z-index: -3;
+        }
+        div.header-bg {
+            position: absolute;
+            left: 318px;
+            top: 78px;
+            height: 315px;
+            width: 100%;
+            z-index: -4;
+            background-image: url(https://i.servimg.com/u/f98/20/22/21/34/header11.jpg);
+            background-repeat: repeat-x;
+            background-position: right bottom;
+
+            left: 0;
+            right: 0;
+        }
+        div.header-right {
+            position: absolute;
+            right: 0px;
+            z-index: -2;
+            width: 593px;
+            height: 315px;
+            background-image: url(https://i.servimg.com/u/f98/20/22/21/34/header10.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+
+        }
+        .headerMenu {
+            background: none repeat scroll 0 0 #107cac;
+            box-shadow: 0 -1px 0 #0d638b inset;
+            height: 78px;
+            left: 0;
+position: relative;
+            top: 0;
+            width: 100%;
+            z-index: 555;
+            overflow: visible;
+            
+        }
+        .happyeid {
+            margin-left: 50px;
+            margin-top: 5px;
+            float: left;
+        }
+        .headerMenu ul {
+            float: right;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            margin-right: 50px;
+        }
+        .headerMenu ul li {
+            float: right;
+        }
+        .headerMenu ul li a {
+            display: block;
+            text-decoration: none;
+            color: #fff;
+            padding-right: 20px;
+            padding-left: 20px;
+            line-height: 78px;
+            border-left: 1px solid #0d638b;
+            font-weight: bold;
+        }
+        .headerMenu ul li a:hover {
+            background-color: #0d638b;
+            text-decoration: none;
+        }
+        .wrapper {
+
+            display: block;
+            background: none repeat scroll 0% 0% rgba(102, 255, 255, 0.3);
+            z-index: 999;
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            border-radius: 10px;
+            margin-top: 125px;
+            padding: 20px;
+            margin-left: 100px;
+            margin-right: 100px;
+            box-sizing: border-box;
+
+        }
+.page{
+
+}
+        .loginBar {
+            background-color: rgba(255, 255, 255, 0.3);
+            width: 100%;
+            min-height: 60px;
+            border-radius: 5px;
+            box-sizing: border-box;
+            box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.7);
+            margin-bottom: 100px;
+            text-align: right;
+            padding: 10px;
+        }
+        .forumwrap {
+            -moz-box-shadow: 0 0 0 5px #78c3e1, 0 0 0 6px rgba(255, 255, 255, .5);
+            -webkit-box-shadow: 0 0 0 5px #78c3e1, 0 0 0 6px rgba(255, 255, 255, .5);
+            box-shadow: 0 0 0 5px #78c3e1, 0 0 0 6px rgba(255, 255, 255, .5);
+            background-color: rgb(255, 255, 255);
+            -moz-border-radius: 3px;
+            -webkit-border-radius: 3px;
+            border-radius: 3px;
+            position: relative;
+            overflow: hidden;
+
+            margin-top: 10px;
+            margin-bottom: 10px;
+
+        }
+        .logo {
+            position: absolute;
+            top: 90px;
+            left: 100px;
+            text-align: right;
+            z-index: 55;
+            font-weight: bold;
+        }
+        .forumText {
+
+            font-size: 14px;
+
+            color: #224a67;
+            text-shadow: 0 1px 0 rgba(0,240,255,.5);
+            font-weight: bold;
+        }
+        .forumName {
+            color: #fff;
+            font-size: 36px;
+            text-shadow: 0 1px 0 rgba(0,0,0,.5);
+        }
+        #footer{
+margin-top: 30px;
+        }
+        .footerTop{
+            background-color: #206da2;
+            min-height: 200px;
+
+        }
+        .footerTop:after{
+            display: block;
+            content: '';
+            clear: both;
+        }
+        .footerBottom{
+            background-color: #2d84c1;
+            font-weight: bold;
+            height: 60px;
+
+padding-top: 15px;
+padding-right: 20px;
+padding-left: 20px;
+            padding-bottom: 0;
+        }
+        .foorerMenu{
+            width: 70%;
+            float: right;
+            padding-right: 80px;
+            max-width: 800px;
+        }
+        .footerImage{
+            padding-top: 30px;
+            text-align: left;
+            width: 30%;
+            float: left;
+            padding-left: 20px;
+        }
+        .footerImage img{
+            max-width: 100%;
+            display: inline-block;
+
+        }
+
+        .foorerMenu ul{margin: 0;
+        padding: 0;
+        list-style: none;}
+.foorerMenu ul li{
+    width: 25%;
+            float: right;
+}
+        .foorerMenu ul li a,a:visited{
+            background-image: url(https://i.servimg.com/u/f98/20/22/21/34/footer12.png);
+            background-repeat: no-repeat;
+            background-position: 98% center;
+            padding-right: 20px;
+            color: #fff;
+            text-decoration: none;
+            display: block;
+            line-height: 30px;
+            text-align: right;
+            border-radius: 3px;
+        }
+        .foorerMenu ul li a:hover{
+            background-color: rgba(0,0,0,.2);
+        }
+        .foorerMenu h2{
+            font-size: 16px;
+            font-weight: bold;
+            color: #fff;
+            text-align: right;
+        }
+a.rights{
+    float: left;
+    display: block;
+    background-image: url(https://i.servimg.com/u/f98/20/22/21/34/rights10.png);
+    width: 90px;
+    height: 64px;
+    background-repeat: no-repeat;
+border-radius: 3px;
+
+
+
+}
+a.rights:hover{
+    opacity: .8;
+}
+        .siteRights img{float: right;vertical-align: middle;display: inline-block;margin-left: 20px;}
+        .siteRights{padding-top: 10px;
+            float: right;
+         color: #fff;
+            font-weight: bold;
+        }
+.privateM{
+    float: left;
+}
+.button{
+    background-color: #1184b2;
+    padding: 5px;
+    color: #96e9ff;
+    border: 0;
+    font-weight: bold !important;
+    border-radius: 3px;
+    min-height: 28px;
+    margin-left: 5px;
+    margin-right: 5px;
+cursor: pointer;
+}
+.panel a{
+    color:#1184b2 !important;
+}
+.button:hover{
+    color: #Fff;
+    background-color: #47b7dc;
+
+
+}
+.loginFields{
+    padding: 5px;
+    border-radius: 3px;
+    border: 0;
+    background-color: #fff;
+    margin-left: 5px;
+    margin-right: 5px;
+    min-height: 20px;
+    vertical-align: baseline;
+    font-family: droidkufi, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+.loginIcons{margin-right: 10px;}
+.loginFields:active,.loginFields:focus{
+    -webkit-box-shadow:  0 0 3px rgba(0,0,0,.5);
+    box-shadow:  0 0 3px rgba(0,0,0,.5);
+}
+.thead{
+        -webkit-box-shadow: -0px -3px 0 0 #000;
+    box-shadow: 0 -3px 0 0 rgba(0,0,0,.1) inset;
+}
+.vbmenu_control{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    -webkit-box-shadow: -0px 3px 0 0 #000;
+    box-shadow: 0 3px 0 0 rgba(0,0,0,.1) inset;
+
+}
+
+.alt1Active,.alt1,.alt2{
+    padding-right:10px;
+    padding-LEFT:10px;
+}
+.navbar{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.tcat{
+    -webkit-box-shadow: inset 0 -3px 0 #11779f;
+    box-shadow: inset 0 -3px 0 #11779f;
+}
+.links{
+    float: left;
+        position: absolute;
+}
+    .links a,
+    .links a:hover,
+    .links a:visited,
+    .links a:link{
+        color: rgba(255,255,255,0);
+        font-size: .9px;
+
+    }
+
