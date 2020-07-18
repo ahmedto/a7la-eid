@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'droidkufi';
+    font-weight: bold;
+	src: url('droidkufi-bold.eot');
+	src: url('droidkufi-bold.eot?#iefix') format('embedded-opentype'),
+		url('droidkufi-bold.woff') format('woff'),
+		url('droidkufi-bold.ttf') format('truetype'),
+		url('droidkufi-bold.svg') format('svg');
+}
